@@ -3,10 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { ListVehiculosComponent } from './vehiculos/list-vehiculos/list-vehiculos.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: ListVehiculosComponent,
-  }
 ]
 
 @NgModule({
